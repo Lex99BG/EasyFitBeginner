@@ -1,0 +1,225 @@
+header {
+    overflow: hidden;
+    background: -webkit-linear-gradient(rgb(0 0 0 / 35%), rgb(63 46 115 / 19%)), url("../../assets/images/header-bg2.jpg");
+    color: #fff;
+    height: 60vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-intro {
+    margin: 8vh auto;
+}
+.header-intro h1 {
+	font-size: 88px;
+    font-size: 5.5rem;
+    font-weight: 500;
+    font-family: 'Brygada 1918', serif;
+    line-height: 1.2em;
+	word-wrap: revert;
+	color: #fff;
+	text-shadow: #060606 2px 2px;
+}
+.header-intro h6 {
+	color: #e4b838;
+	text-shadow: #060606 2px 2px;
+}
+.header-intro h6 , .intro-text h6{
+	font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.25em;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+	letter-spacing: 3px;
+}
+.intro-text h3 {
+	line-height: 1.2em;
+    color: #e4b838;
+	font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+.youtube-video {
+	letter-spacing: 3px;
+	font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Brygada 1918', serif;
+}
+.youtube-video .col-md-3:nth-of-type(2) {
+	color: #e4b838;
+}
+.youtube-video .col-md-3:nth-of-type(3) {
+	color: #e4b838;
+}
+.team h2 {
+	line-height: 1.2em;
+    color: #e4b838;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+.header-icon {
+    color: #fff;
+    margin: 0px 5px 0px 0px;
+    font-size: 20px;
+}
+.header-icon:hover {
+    color: #e4b838;
+}
+.team h3 {
+    line-height: 1.2em;
+    color: #e4b838;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+.blockquote-wrap {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+ .blockquote-img {
+	width: 90px;
+	height: 90px;
+}
+.blockquote-img:last-of-type {
+	margin: auto;
+}
+ .blockquote-img img {
+	border-radius: 50%;
+	height: 90px;
+	object-fit: cover;
+}
+ .blockquote-name {
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+ .blockquote-location {
+	color: #949494;
+}
+/********************/
+.youtube-video {
+	position: relative;
+}
+#background-video {
+	width: 100%;
+	height: 60vh;
+	object-fit: cover;
+}
+
+.youtube-video .container {
+	background-color: #1f1f1f8e;
+	color: #fff;
+	position: absolute;
+	bottom: 14px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/********************/
+.team hr {
+	width: 10%;
+        margin: 7px auto;
+        opacity: 1 !important;
+        color: #e4b838;
+}
+.team .row .col-md-4 img {
+	width: 500px;
+	height: 320px;
+	object-fit: cover;
+}
+.socials-row .socials a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #e4b93880;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.socials-row .socials a:hover {
+	background-color: #e4b938c5;
+}
+.testimonial {
+	background-color: #f1f1f1;
+	padding: 30px;
+}
+.footer{
+	background-color: #060606;
+    padding: 35px 0;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-col {
+    color: #fff;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e4b838;
+	height: 2px;
+	box-sizing: border-box;
+	width: 45%;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }

@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+/*** SECTION HEADER START ***/
+header {
+    background: url('../../assets/images/header-bg.jpg');
+    color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-intro {
+    margin: 10vh auto;
+	width: 50%;
+	float: left;
+	margin-left: 10%;
+}
+iframe {
+    height: 75vh !important;
+    width: 100%;
+}
+.icon {
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+}
+.header-intro h1 {
+	font-size: 88px;
+    font-size: 5.5rem;
+    font-weight: 500;
+    font-family: 'Brygada 1918', serif;
+    line-height: 1.2em;
+	word-wrap: revert;
+}
+.header-intro h6 {
+	font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.25em;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+/*** SECTION HEADER END ***/
+
+.intro-video h2 {
+	font-size: 48px;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+    line-height: 1.2em;
+}
+.intro-video h6 {
+	font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.25em;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+.service-intro-main{
+	position: relative;
+}
+.service-intro-main::before {
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 24px;
+	border-bottom-right-radius: 24px ;
+	background: radial-gradient(circle,  rgb(124, 124, 124) 0%,rgb(24, 24, 24) 100%);
+	left: 50%;
+	z-index: -1;
+}
+.service-intro-main h2, .service-intro-main h4, .service-intro-main h6 {
+	color: #e4b838;
+	font-family: 'Brygada 1918', serif;
+}
+.service-intro-text {
+	color: #595959;
+}
+.services-img-container img {
+	border-radius: 24px;
+	vertical-align: middle;
+    display: inline-block;
+}
+.btn-more {
+    text-decoration: none;
+    color: #e4b838;
+    text-transform: uppercase;
+    font-weight: bold;
+	letter-spacing: 2px;
+}
+ol {
+	list-style: none;
+}
+
+/*** SECTION BOOKING START ***/
+.btn-black {
+	background-color: #060606 !important;
+}
+.btn-black:hover {
+	background-color: #fff !important;
+	color: #060606 !important;
+}
+.booking .container .d-flex p{
+	color: #595959;
+}
+.booking .container .d-flex {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 42px 0px 42px 0px;
+	padding: 10% 20%; 
+	text-align: center;
+}
+.booking .container .d-flex h6 {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #454646;
+	font-family: 'Brygada 1918', serif;
+}
+.booking .container .d-flex h2 {
+	font-size: 64px;
+	text-align: center;
+	font-family: 'Brygada 1918', serif;
+	color: #e4b838;
+	line-height: 1.2em;
+	font-weight: 600;
+	word-wrap: revert;
+}
+/*** SECTION BOOKING END ***/
+
+/*** SECTION WHAT IS FITNESS START ***/
+.fit-info {
+	background: -webkit-linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url('../../assets/images/what-is-fitness-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.fit-info h6, .fit-info h2 , .fit-info h3 {
+	font-family: 'Brygada 1918', serif;
+	clear: both;
+}
+.fit-info .container .fit-info-header h2 {
+	color: #e4b838;
+	line-height: 1.2em;
+	font-size: 36px;
+	font-weight: 600;
+}
+.fit-info .container h3 {
+	color: #e4b838;
+	line-height: 1.2em;
+	font-size: 2rem;
+    font-weight: 600;
+}
+.fit-info .container h6 {
+	color: #e4b838;
+	line-height: 1.2em;
+	font-size: 1rem;
+    font-weight: 600;
+	padding-bottom: 1rem;
+}
+.fit-info .container .fit-info-header h6{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	line-height: 1.25em;
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+.fit-info .container .row {
+	border: 1px solid #595959 !important;
+}
+
+.border-b {
+	border-bottom: 1px solid #595959 !important;
+}
+.border-r {
+	border-right: 1px solid #595959;
+}
+.fit-info .container .row .col-lg-6 {
+	border-bottom: 0.5px;
+	padding: 40px;
+}
+/*** SECTION WHAT IS FITNESS END ***/
+.testimonial {
+	background-color: #f1f1f1;
+	padding: 30px;
+}
+.testimonial i {
+	font-size: 42px;
+	color: #e4b838;
+	margin-bottom: 1rem;
+}
+.blockquote-wrap {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+ .blockquote-img {
+	width: 90px;
+	height: 90px;
+}
+.blockquote-img:last-of-type {
+	margin: auto;
+}
+.blockquote-img img {
+	border-radius: 50%;
+	height: 90px;
+	object-fit: cover;
+}
+ .blockquote-name {
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+ .blockquote-location {
+	color: #949494;
+}
+/*** SECTION CONTACT FORM START ***/
+.contact-form .container .row .col-md-6 h6{
+	color: #454646;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	font-family: 'Brygada 1918', serif;
+	line-height: 1.25em;
+	font-size: 0.875rem;
+	font-weight: 600;
+}
+.contact-form .container .row .col-md-6 h2 {
+	line-height: 1.2em;
+	color: #e4b838;
+	font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Brygada 1918', serif;
+}
+.contact-form .container .row .col-md-6 .div-list-style h6 , .contact-form .container .row .col-md-6 .div-info-style h6 {
+	color: #e4b838;
+}
+.contact-form .container .row .col-md-6 p {
+	color: rgb(127, 124, 118);
+}
+.contact-form .container .row .col-md-6 .div-list-style {
+	position: relative;
+	padding-left: 1.3rem;
+	border-bottom: 1px solid #e2e1df;
+}
+.contact-form .container .row .col-md-6 .div-list-style::before {
+	content: " ";
+    background: url(../../assets/images/map-marker-alt-solid.svg);
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.contact-form .div-info-style {
+	position: relative;
+	padding-left: 1.3rem;
+	border-right: 1px solid #e2e1df;
+	margin-top: 20px;
+}
+.contact-form .col-md-6:last-of-type .div-info-style {
+	border: 0;
+}
+.contact-form .div-info-style::before {
+	content: " ";
+    background: url(../../assets/images/clock-solid.svg);
+    width: 13px;
+    height: 13px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.contact-form .col-md-6:last-of-type .div-info-style::before {
+	background: url('../../assets/images/store-solid.svg');
+}
+.contact-form .contact-form-style form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.contact-form-items {
+	display: flex;
+	flex-direction: column;
+}
+.contact-form .contact-form-style form input {
+	padding: 10px 24px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.contact-form-style .contact-form-items span {
+	color: red;
+}
+.contact-form .contact-form-style form .submit {
+	background-color: #060606;
+	border: 2px solid #060606;
+	color: #fff;
+	letter-spacing: 2px;
+	cursor: pointer;
+	padding: 14px 29px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.contact-form .contact-form-style form .submit:hover {
+	background-color: #fff;
+	color: #060606;
+}
+/*** SECTION CONTACT FORM END ***/
+/*** FOOTER START ***/
+.footer{
+	background-color: #060606;
+    padding: 35px 0;
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-col {
+    color: #fff;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e4b838;
+	height: 2px;
+	box-sizing: border-box;
+	width: 45%;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li {
+	font-weight: 300;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/*** FOOTER END ***/
+
+/* RESPONSIVE */
+@media(max-width: 1199px){
+    .service-intro-main::before{
+		width: 100%;
+		left: 0;
+  }
+  .service-intro-text {
+	color: #bbbbbb;
+  }
+}
+@media(max-width: 767px){
+    .header-intro h1{
+		font-size: 51px;
+	}
+	.footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+	.footer-col{
+		width: 100%;
+	}
+}
